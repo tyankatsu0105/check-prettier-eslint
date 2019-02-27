@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     // Web Componentsと差別化を図るため
+
     "vue/component-name-in-template-casing": "error",
     "vue/html-closing-bracket-newline": "error",
     "vue/html-closing-bracket-spacing": "error",

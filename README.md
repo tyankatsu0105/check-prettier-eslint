@@ -1,39 +1,11 @@
-# check-prettier-eslint
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+# 試したこと
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+- eslintにprettier内包
+- eslint --fixさせる
 
-### Run your tests
-```
-yarn run test
-```
+# 結果
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- インデントが崩れる
+- `yarn add prettier@1.14.3 -D`でprettierがvue対応する直前のマイナーバージョンだと綺麗に整形されるしerrorも出ない
