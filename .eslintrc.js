@@ -5,7 +5,7 @@ module.exports = {
     es6: true
   },
   extends: ["airbnb-base/legacy", "plugin:vue/recommended", "prettier"],
-  plugins: [prettier"],
+  plugins: ["prettier"],
   rules: {
     "prettier/prettier": "error",
     // Web Componentsと差別化を図るため
